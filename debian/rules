@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean
+	dh_installdirs
+	dh_installsystemd
+	dh_installchangelogs
+	dh_installdocs 
+	dh_installdirs
+	dh_installdeb
+	dh_install
+
+build:
+	make
+
+%:
+	dh $@
+

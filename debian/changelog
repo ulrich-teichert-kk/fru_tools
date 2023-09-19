@@ -1,0 +1,5 @@
+fru-tools (0.8.1.5) stable; urgency=medium
+
+  * Fixed crash on free, added debian packaging.
+
+ -- Ulrich Teichert <ulrich.teichert@kumkeo.de>  Mon, 18 Sep 2023 14:27:20 +0200

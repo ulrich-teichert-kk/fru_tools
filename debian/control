@@ -1,0 +1,9 @@
+Source: fru-tools
+Section: misc
+Priority: optional
+Maintainer: Ulrich Teichert <ulrich.teichert@kumkeo.de>
+Build-Depends: debhelper
+
+Package: fru-tools
+Architecture: arm64
+Description: fru-tools from Analog Devices
